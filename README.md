@@ -63,6 +63,9 @@
     -----END RSA PRIVATE KEY-----
 #### Grader password: 
       1234
+## To get latest versions following update command:
+    sudo get-apt update
+    sudo get-apt upgrade      
 #### sudo adduser grader
 #### It adds new user
      sudo nano/etc/sudoers
@@ -99,7 +102,7 @@
      sudo ufw enable
 ## To get latest versions following update command:
     sudo get-apt update
-    sudo get-apt upgrade
+    sudo get-apt upgrade     
 ## Next:
      check status:  sudo ufw status
      get time and date : sudo dpkg-reconfigure tzdata
