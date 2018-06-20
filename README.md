@@ -4,6 +4,11 @@
 ## About the server:
     Server Ip Address: 13.126.254.36
     Hosted url: http://13.126.254.36.xip.io/
+## Softwares Used:
+    lightsail software
+    PuTTy software
+    Flask frame work
+    Apache2
 ## Process for database
 ####  install postgres:
     sudo apt-get install postgresql
@@ -80,6 +85,7 @@
      ssh -i .ssh/id_rsa grader@ipaddress 
 #### Change the port 22 to 2200 
      sudo nano /etc/ssh/sshd_config
+     make change PermitRootLogin no
 #### Restart the ssh server
      service ssh restart
 #### Now get login using command:
@@ -93,6 +99,7 @@
      sudo ufw enable
 ## To get latest versions following update command:
     sudo get-apt update
+    sudo get-apt upgrade
 ## Next:
      check status:  sudo ufw status
      get time and date : sudo dpkg-reconfigure tzdata
@@ -158,3 +165,6 @@
       http://ip.xip.io\callback
 ## Finally restart the server:
     sudo service apache2 restart
+## References used:
+     https://www.digitalocean.com
+     some git hubs to get an idea 
